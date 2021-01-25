@@ -34,11 +34,11 @@ Postfix 형식은 34 23 41 - +
 결과는 16입니다
 ```
 
-### sources
+### [sources](https://github.com/fortunetiger/infix2postfix/tree/master/sources)
 - [Infix2postfix.c](https://github.com/fortunetiger/infix2postfix/blob/master/sources/Infix2Postfix.c)
 - [Queue.c](https://github.com/fortunetiger/infix2postfix/blob/master/sources/Queue.c)
 - [Stack.c](https://github.com/fortunetiger/infix2postfix/blob/master/sources/Stack.c)
 
-### headers
+### [headers](https://github.com/fortunetiger/infix2postfix/tree/master/headers)
 - [Queue.h](https://github.com/fortunetiger/infix2postfix/blob/master/headers/Queue.h)
 - [Stack.h](https://github.com/fortunetiger/infix2postfix/blob/master/headers/Stack.h)
