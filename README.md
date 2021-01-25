@@ -10,5 +10,5 @@ QnA : songinseo0910@duksung.ac.kr
 - [Stack.c](https://github.com/fortunetiger/infix2postfix/blob/master/sources/Stack.c)
 
 ### headers
-- [Queue.h](https://github.com/fortunetiger/infix2postfix/blob/master/sources/Queue.h)
-- [Stack.h](https://github.com/fortunetiger/infix2postfix/blob/master/sources/Stack.h)
+- [Queue.h](https://github.com/fortunetiger/infix2postfix/blob/master/headers/Queue.h)
+- [Stack.h](https://github.com/fortunetiger/infix2postfix/blob/master/headers/Stack.h)
