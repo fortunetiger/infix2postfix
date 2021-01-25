@@ -17,7 +17,7 @@ int calculate(Queue*);
 int main() {	// main function(the start point of program)
 
 	Stack* postfix = infix2postfix();
-	printf("°á°ú´Â %d ÀÔ´Ï´Ù\n\n", calculate(postfix));
+	printf("ê²°ê³¼ëŠ” %d ì…ë‹ˆë‹¤\n\n", calculate(postfix));
 
 	return 0; // end of program
 }
@@ -28,7 +28,7 @@ Queue* infix2postfix() {
 	Stack *operatorStack = initStack();
 	Queue* outputQueue = initQueue();
 
-	printf("Infix Çü½ÄÀÇ °è»ê½ÄÀ» ÀÔ·ÂÇÏ¼¼¿ä: ");
+	printf("Infix í˜•ì‹ì˜ ê³„ì‚°ì‹ì„ ì…ë ¥í•˜ì„¸ìš”: ");
 	scanf_s("%[^\n]s", input, 50);
 
 	for (int i = 0; i < 50; i++) {
@@ -87,7 +87,7 @@ int calculate(Queue* postfix) {
 	
 	Stack* result = initStack();
 	
-	printf("Postfix Çü½ÄÀº ");
+	printf("Postfix í˜•ì‹ì€ ");
 	while(!isEmptyQ(postfix)) {
 		int temp = removeQ(postfix);
 		printf("%c ", temp);
